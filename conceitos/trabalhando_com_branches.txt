@@ -1,0 +1,31 @@
+--------- Sobre ---------
+
+Cada commit representa uma marco na linha de tempo do projeto. Quando um desses marcos históricos necessita de alterações, uma cópia do projeto é feita nesse determinado marco. Dessa forma, uma nova linha do tempo é gerada a partir daquele marco. Chamamos isso de branch.
+
+Isso pode ser feito inúmeras vezes, gerando diversas linhas do tempo diferentes. Ao final, é possível unificar todas as linhas do tempo voltando a linha do tempo principal (também chamada de master ou main), obtendo uma versão final do nosso projeto.
+
+--------- Criando branches ---------
+
+Para criarmos uma nova branch, utilizaremos o comando:
+
+git branch "branch_name"
+
+Obs.: Podemos checar as branches exixtentes em nosso repositório com: git branch
+
+Para acessarmos determinada branch, utilizamos o comando:
+
+git checkout "branch_name"
+
+Obs.: Quaisquer alterações feitas nas branches secundárias não serão refletidas na principal, a não ser que apliquemos isso.
+
+--------- Deletando branches ---------
+
+Para deletarmos uma branch, temos as seguintes opções:
+
+- Exclusão segura:
+
+git branch -d "branch_name"
+
+- Exclusão forçada:
+
+git branch -D "branch_name"
