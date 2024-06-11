@@ -1,0 +1,23 @@
+Alguns comandos importantes do terminal que serão muito utlizados junto do Git são:
+
+Listar diretórios contidos no dirtório atual: dir
+
+Acessar diretório: cd dir_name
+
+Retroceder diretório: cd ..
+
+Criar diretório: mkdir dir_name
+
+Remover diretório: rmdir dir_name
+
+Remover diretório recursivamente: rmdir /s dir_name
+
+Remover arquivo: del file_name
+
+Criar arquivo: echo (Texto opcional a ser inserido) > file_name
+
+Checar o conteúdo de um arquivo: type file_name
+
+Criando um arquivo a partir do conteúdo de outro arquivo: type file_name > new_file_name
+
+Limpar terminal: cls

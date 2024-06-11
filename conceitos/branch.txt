@@ -1,0 +1,3 @@
+Cada commit representa uma marco na linha de tempo do projeto. Quando um desses marcos históricos necessita de alterações, uma cópia do projeto é feita nesse determinado marco. Dessa forma, uma nova linha do tempo é gerada a partir daquele marco. Chamamos isso de branch.
+
+Isso pode ser feito inúmeras vezes, gerando diversas linhas do tempo diferentes. Ao final, é possível unificar todas as linhas do tempo voltando a linha do tempo principal (também chamada de master ou main), obtendo uma versão final do nosso projeto.

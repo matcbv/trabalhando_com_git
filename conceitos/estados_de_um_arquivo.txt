@@ -1,0 +1,5 @@
+Modified: Qualquer alteração feita no arquivo, gera o estado de Modified.
+
+Staging: Estado que indica que o arquivo está pronto para serem enviados.
+
+Commited: Esse estado entra em vigor quando um arquivo é enviado.

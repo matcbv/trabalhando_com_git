@@ -1,0 +1,62 @@
+--------- inicialização do git ---------
+
+Para inicializarmos o Git em um repositório, utilizamos o comando:
+
+git init
+
+Obs.: Devemos estar dentro do repositório que desejamos inicializar ao realizarmos o comando.
+
+--------- status ---------
+
+Para verificarmos o status dos arquivos contidos em nosso repositório, utilizamos o comando:
+
+git status
+
+Esse comando irá exibir informações como:
+
+- A branch atual
+- Os commits já feitos
+- Os arquivos não rastreados (modificados)
+
+--------- staging ---------
+
+Para adicionarmos um arquivo modificado para a etapa de staging, utilizamos o comando:
+
+git add file_name
+
+Podemos adicionar todos os arquivos de determinado repositório para staging com o comando:
+
+git add .
+
+Para retirarmos um arquivo do estágio de staging, utilizamos o comando:
+
+git rm --cached file_name
+
+Onde a opção --cached indica ao Git para manipular apenas o índice (também conhecido como área de preparação) e não modificar os arquivos em si no diretório de trabalho.
+
+--------- commit ---------
+
+Para realizarmos o commit de um arquivo no Git, utilizamos o comando:
+
+git commit -m "Mensagem informando sobre o commit"
+
+Onde -m significa message.
+
+Obs.: Não utilizar acentuações nas mensagens de commit.
+
+Para verificarmos o histório de commits, utilizamos o comando:
+
+git log
+
+Esse comando irá exibir informações como:
+
+- hash SHA do commit (identificador único pertencente a cada commit)
+- nome do responsável pelo commit
+- data e hora do commit
+- mensagem do commit
+
+Obs.: Podemos salvar o histórico em um arquivo digitando um nome ou caminho ao final do comando. Para saírmos sem salvarmos o histórico, basta apertarmos a tecla q.
+
+Podemos também obter os commits de forma compacta, mostrando somente o hash SHA encurtado e a mensagem do commit. Para isso utilizamos o comando:
+
+git log --oneline

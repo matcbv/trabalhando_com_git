@@ -1,0 +1,23 @@
+Primeiramente, podemos checar se o git está instalado em nossa máquina através do comando:
+
+git --version (ou -v)
+
+Agora, devemos configurar nosso nome de usuário e email no git, para conseguirmos ser identificados. Para isso utilizaremos os comandos:
+
+git config --global user.name "nome_de_usuario"
+
+git config --global user.email meuemail@gmail.com
+
+Onde --global indica que a configuração que você está definindo ou alterando deve ser aplicada a nível global, ou seja, para todos os repositórios do usuário no sistema.
+
+Obs.: Caso possua uma conta GitHub a ser vinculada, o nome de usuário e o email devem ser os mesmos cadastrados nela.
+
+Para verificamos o nome e email que estão cadastrados, utilize os comandos:
+
+git config user.name 
+
+git config user.email
+
+Podemos também verificar todas as configurações globais aplicadas em nosso Git através do comando:
+
+git config --global --list

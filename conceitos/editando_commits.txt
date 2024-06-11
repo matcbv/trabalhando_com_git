@@ -1,0 +1,23 @@
+Par editarmos nosso último commmit, devemos utilizar o comando:
+
+git commit --amend
+
+Após isso, devemos pressionar a tecla i, para entrar no modo de inserção.
+
+Ao editarmos os dados necessários, pressionaremos a tecla Esc para sair do modo de inserção.
+
+Para salvarmos as alterações feitas, iremos digitar:
+
+:w (write) - Salvar
+
+Logo em seguida, utilizaremos:
+
+:q (quit) - Sair
+
+Caso quisermos descartar nossas alterações, utilizaremos o comando:
+
+:q! (forced quit) - Força a sáida descartando as alterações.
+
+ou
+
+:qa! (all forced quit) - Força a saída descartando as alterações de todas as janelas abertas.
