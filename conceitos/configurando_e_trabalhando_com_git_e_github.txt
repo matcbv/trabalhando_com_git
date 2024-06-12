@@ -23,5 +23,11 @@ Para puxarmos nosso repositório para um repositório atual, utilizamos o comand
 
 git pull alias (origin) branch (main)
 
----------- fetch ----------
+---------- clone ----------
 
+
+---------- clone com submódulos ----------
+
+Ao clonar submódulos, devemos utilizar o parâmetro --recursive para que os submódulos sejam incluidos:
+
+git clone --recursive "url_repository"

@@ -1,0 +1,25 @@
+--------- Criando submódulos ---------
+
+Para criarmos um submódulo, devemos utilizar o comando:
+
+git submodule add "submodule_url" "submodule_path"
+
+Obs.: Caso não seja informado nenhum caminho para o submódulo, o próprio diretório do submódulo será utilizado.
+
+--------- push com submódulos ---------
+
+Devemos navegar até o subdiretório e em seguida utilizar o comando de push
+
+git push origin main/master
+
+Obs.: Ao realizarmos isso, a branch principal do submódulo será atualizada, enquanto a do diretório principal será mantida sem alterações.
+
+Em seguida, também devemos fazer um commit em nosso repositório principal informando sobre as alterações no submódulo, dando um push em sequência para a branch principal dele. 
+
+--------- pull com submódulos ---------
+
+Devemos navegar até o subdiretório e em seguida utilizar o comando de pull
+
+git pull origin main/master
+
+Por fim, devemos retornar para nosso diretório principal e dar commit, junto de um push para o nossa branch do diretório principal, informando sobre a atualização do submódulo.
