@@ -1,0 +1,6 @@
+[submodule "project_first_branch"]
+	path = project_first_branch
+	url = https://github.com/matcbv/trabalhando_com_git/project_first_branch.git
+[submodule "project_second_branch"]
+	path = project_second_branch
+	url = https://github.com/matcbv/trabalhando_com_git/project_second_branch.git

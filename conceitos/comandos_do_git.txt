@@ -31,7 +31,7 @@ git add .
 Para retirarmos um arquivo do estágio de staging, utilizamos o comando:
 
 git restore --staged  file_name
-
+  
 Onde a opção --cached indica ao Git para manipular apenas o índice (também conhecido como área de preparação) e não modificar os arquivos em si no diretório de trabalho.
 
 --------- commit ---------
