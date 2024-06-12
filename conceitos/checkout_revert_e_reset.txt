@@ -12,7 +12,7 @@ git checkout main/master
 
 --------- revert ---------
 
-Para revertendo determinado commit do nosso repositório, utilizamos o comando:
+Para revertermos determinado commit do nosso repositório, utilizamos o comando:
 
 git revert hash SHA
 

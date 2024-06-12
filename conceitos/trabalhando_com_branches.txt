@@ -12,11 +12,17 @@ git branch "branch_name"
 
 Obs.: Podemos checar as branches exixtentes em nosso repositório com: git branch
 
+Obs.: Quaisquer alterações feitas nas branches secundárias não serão refletidas na principal, a não ser que apliquemos isso.
+
+--------- Acessando branches ---------
+
 Para acessarmos determinada branch, utilizamos o comando:
 
 git checkout "branch_name"
 
-Obs.: Quaisquer alterações feitas nas branches secundárias não serão refletidas na principal, a não ser que apliquemos isso.
+Podemos também acessar criar um branch acessando-a logo em seguida:
+
+git checkout -b "branch_name"
 
 --------- Deletando branches ---------
 

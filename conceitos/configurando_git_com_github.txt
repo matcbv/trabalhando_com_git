@@ -1,5 +1,0 @@
-Para vincularmos nossa chave SSH a um alias, podemos utilizar o comando:
-
-git remote add "alias_name" "ssh_key"
-
-Obs.: Por padrão, o nome do alias é origin.
