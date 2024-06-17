@@ -20,7 +20,7 @@ Para acessarmos determinada branch, utilizamos o comando:
 
 git checkout "branch_name"
 
-Podemos também acessar criar um branch acessando-a logo em seguida:
+Podemos também criar uma branch acessando-a logo em seguida:
 
 git checkout -b "branch_name"
 
