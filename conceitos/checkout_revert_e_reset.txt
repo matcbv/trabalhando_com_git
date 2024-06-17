@@ -33,3 +33,7 @@ Isso irá resetar nosso repositório, mas mantendo as alterações a serem rastr
 Para resetarmos nosso código por completo, eliminando alterações futuras ao commit escolhido, devemos utilizar o comando:
 
 git reset hash SHA --hard
+
+Também podemos descartar as alterações colocadas em stage com:
+
+git reset 
