@@ -1,0 +1,19 @@
+No Git, HEAD é um conceito fundamental que representa o commit atual no qual você está trabalhando. Aqui estão os principais pontos para entender o HEAD:
+
+------------ Sobre ------------ 
+
+O HEAD é simplesmente um ponteiro para o commit atual no qual você está trabalhando no repositório Git. Também pode apontar diretamente para uma branch, caso estejamos trabalhando com uma.
+
+------------ Funções ------------
+
+Indicar o estado atual: O HEAD indica qual commit ou branch está atualmente selecionado.
+
+Ponto de partida: É a base para novos commits e operações como reset, merge e checkout.
+
+------------ Modo de uso ------------
+
+Checkout: Quando você muda de branch ou de commit, você está movendo o HEAD para apontar para um novo commit ou branch.
+
+Reset: Ao executar um git reset, você move o HEAD para um commit específico, alterando o ponto de partida para novos commits.
+
+Merge: Durante uma operação de merge, o HEAD pode apontar para o branch que está sendo mesclado com o branch atual.
