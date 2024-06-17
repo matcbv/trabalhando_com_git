@@ -1,5 +1,7 @@
 --------- checkout ---------
 
+Utilizado para alternar entre branches, restaurar arquivos modificados e navegar entre diferentes versões do projeto sem alterar o histórico.
+
 Para voltarmos nosso repositório para determinado commit anterior, mantendo-o inalterado, utilizamos o comando:
 
 git checkout hash SHA
@@ -12,11 +14,11 @@ git checkout main/master
 
 --------- revert ---------
 
+Cria um novo commit que desfaz as alterações de um commit específico, mantendo o histórico existente intacto e seguro para colaboração.
+
 Para revertermos determinado commit do nosso repositório, utilizamos o comando:
 
 git revert hash SHA
-
-Obs.: Isso irá reverter somente as alterações contidas naquele commit em específico.
 
 Isso irá criar um novo commit com a template: Revert "Mensagem do commit revertido"
 
@@ -24,12 +26,22 @@ Para revertermos nosso revert, basta utilizarmos o revert no commit gerado por e
 
 --------- reset ---------
 
+Reverte o estado do repositório para um commit específico, alterando o histórico. Pode ser utilizado para desfazer alterações não commitadas (dependendo da opção usada) ou para reverter commits completos.
+
 Para resetarmos nosso repositório para um determinado commit, devemos utilizar o comando:
 
 git reset hash SHA
 
-Isso irá resetar nosso repositório, mas mantendo as alterações a serem rastreadas.
+Isso irá resetar nosso repositório para determinado commit, mas mantendo as alterações a serem rastreadas.
 
 Para resetarmos nosso código por completo, eliminando alterações futuras ao commit escolhido, devemos utilizar o comando:
 
 git reset hash SHA --hard
+
+Opções para reset:
+
+--soft: Move o HEAD e o branch apontam para o commit especificado, mas mantém as alterações no stage index.
+
+--mixed: Move o HEAD e o branch apontam para o commit especificado e desfaz as alterações no stage index.
+
+--hard: Move o HEAD e o branch apontam para o commit especificado, e desfaz todas as alterações não commitadas e do stage index.
