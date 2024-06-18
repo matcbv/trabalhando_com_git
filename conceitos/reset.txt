@@ -1,0 +1,30 @@
+Reverte o estado do repositório para um commit específico, alterando o histórico de nossa branch. Pode ser utilizado para desfazer alterações não commitadas (dependendo da opção usada) ou para reverter commits completos.
+
+Para resetarmos nosso repositório para um determinado commit, devemos utilizar o comando:
+
+git reset hash SHA
+
+As principais opções para o reset são:
+
+----------- --soft -----------
+
+Descrição: Move a HEAD para a nova posição sem alterar o índice (staging area) ou o diretório de trabalho.
+Uso comum: Quando você quer desfazer um commit, mas manter as mudanças na área de staging.
+
+----------- --mixed (padrão) -----------
+
+Descrição: Move a HEAD para a nova posição e reseta o índice (staging area), mas mantém as mudanças no diretório de trabalho.
+Uso comum: Quando você quer desfazer um commit e tirar as mudanças da staging area, mas ainda quer mantê-las no seu diretório de trabalho para editá-las ou criar um novo commit.
+
+----------- --hard -----------
+
+Descrição: Move a HEAD para a nova posição e reseta tanto o índice (staging area) quanto o diretório de trabalho para refletir a nova posição da HEAD.
+Uso comum: Quando você quer desfazer um commit e todas as mudanças associadas a ele, tanto no índice quanto no diretório de trabalho.
+
+----------- diretório de trabalho x área de staging -----------
+
+- Diretório de Trabalho: Pode conter mudanças não rastreadas, mudanças rastreadas mas não adicionadas à staging area, e mudanças rastreadas que já estão na staging area.
+
+- Área de Staging: Contém apenas as mudanças que foram adicionadas com git add e estão prontas para serem commitadas.
+
+Tudo que está na área de staging também está presente no diretório de trabalho, mas nem tudo do diretório de trabalho está na área de staging.

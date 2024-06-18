@@ -1,0 +1,9 @@
+Cria um novo commit que desfaz as alterações de um commit específico, mantendo o histórico existente intacto e seguro para colaboração.
+
+Para revertermos determinado commit do nosso repositório, utilizamos o comando:
+
+git revert hash SHA
+
+Isso irá criar um novo commit com a template: Revert "Mensagem do commit revertido"
+
+Para revertermos nosso revert, basta utilizarmos o revert no commit gerado por ele.
