@@ -4,6 +4,8 @@ Remover da área de staging (index):
 
 git rm -cached file_name
 
+Obs.: Esse arquivo passará a ter o estado de untracked.
+
 Remove do diretório de trabalho:
 
 git rm -f file_name,
