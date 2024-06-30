@@ -1,0 +1,11 @@
+O comando rm (remove) é responsável por remover um diretório ou arquivo da área de staging ou do diretório de trabalho. Para isso, utilizamos o comando:
+
+Remover da área de staging (index):
+
+git rm -cached file_name
+
+Remove do diretório de trabalho:
+
+git rm -f file_name,
+
+onde -f significa force

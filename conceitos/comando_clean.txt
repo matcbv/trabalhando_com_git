@@ -4,7 +4,7 @@ git clean -f
 
 onde -f significa force.
 
-Obs.: O git clean deve ser utilziado junto com -f por motivos de segurança.
+Obs.: O git clean deve ser utilizado junto com -f por motivos de segurança.
 
 Também podemos adicionar a opção para que diretórios não rastreador sejam removidos:
 
