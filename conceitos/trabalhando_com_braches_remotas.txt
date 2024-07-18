@@ -1,0 +1,25 @@
+--------- Criando branch remota ---------
+
+Para criarmos branches remota, utilizamos o comando:
+
+git remote add alias (origin por padrão) URL/Path
+
+--------- Excluindo branch remote ---------
+
+Para excluirmos uma branch remota, utilizamos:
+
+git remote remove alias
+
+--------- Verificando / Alterando a referência remota ---------
+
+Para verificarmos as referências remotas, utilizamos o comando:
+
+git remote -v
+
+Para alterarmos uma referência remota, utilizamos o comando:
+
+git remote set-url alias new_reference
+
+Também podemos obter a referência completa de uma branch com:
+
+git remote get-url alias
