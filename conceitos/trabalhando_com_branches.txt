@@ -8,21 +8,33 @@ Isso pode ser feito inúmeras vezes, gerando diversas linhas do tempo diferentes
 
 Para criarmos uma nova branch, utilizaremos o comando:
 
-git branch "branch_name"
+    git branch "branch_name"
 
-Obs.: Podemos checar as branches exixtentes em nosso repositório com: git branch
+Podemos checar as branches exixtentes em nosso repositório com:
+
+    git branch
 
 Obs.: Quaisquer alterações feitas nas branches secundárias não serão refletidas na principal, a não ser que apliquemos isso.
+
+--------- Criando branches com referência ---------
+
+Pode ser necessários em alguns casos, principalmente ao trabalhar com repositórios bara, de especificar a referência rmeota ao criar uma branch. Para isso, utilizamos o comando:
+
+    git branch "branch_name" "reference"
+
+Ex.:
+
+    git branch main origin/main
 
 --------- Acessando branches ---------
 
 Para acessarmos determinada branch, utilizamos o comando:
 
-git checkout "branch_name"
+    git checkout "branch_name"
 
 Podemos também criar uma branch acessando-a logo em seguida:
 
-git checkout -b "branch_name"
+    git checkout -b "branch_name"
 
 --------- Deletando branches ---------
 
@@ -30,16 +42,16 @@ Para deletarmos uma branch, temos as seguintes opções:
 
 - Exclusão segura: Excluirá o branch caso tenha sido completamente integrado (merged) ao branch atual ou a outro branch de destino. Se o branch ainda tiver commits que não foram mesclados em nenhum outro branch, o Git impedirá a operação e emitirá uma mensagem de erro.
 
-git branch -d "branch_name"
+    git branch -d "branch_name"
 
 - Exclusão forçada: Forçará a exclusão do branch, independentemente de ele ter sido mesclado ou não. Isso pode resultar na perda de commits que só existem naquele branch.
 
-git branch -D "branch_name"
+    git branch -D "branch_name"
 
 --------- Mesclando branches ---------
 
 Para mesclarmos branches, utilizaremos o seguinte comando estando no repositório a receber tal mesclagem:
 
-git merge "branch_name"
+    git merge "branch_name"
 
 Obs.: O repositório mesclado continuará existindo, podendo ainda ser utilizado.

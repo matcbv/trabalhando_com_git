@@ -1,0 +1,11 @@
+---------- Função ----------
+
+O fetch baixa as referências (branches e tags) do repositório remoto e atualiza suas referências locais para refletir essas mudanças. No entanto, ele não altera sua área de trabalho ou atualiza suas branches locais automaticamente.
+
+---------- Modo de uso ----------
+
+Podemos dar um fetch para obtermos atualizações de nosso repositório remoto:
+
+git fetch origin
+
+Após isso, podemos verificar

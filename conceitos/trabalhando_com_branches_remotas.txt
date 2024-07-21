@@ -1,0 +1,34 @@
+---------- Criando uma branch remota ----------
+
+Para criarmos uma branch remota, devemos utilizar o comando:
+
+    git remote add branch_name (origin por padrão) URL/PATH
+
+---------- Obtendo / Modificando a referência da branch remota ----------
+
+Obtendo a referência:
+
+    git remote get-url branch_name
+
+Modificando a referência:
+
+    git remote set-url branch_name
+
+---------- Deletando branch remota ----------
+
+Podemos realizar a exclusão de uma branch remota com:
+
+    git remote remove branch_name
+
+
+---------- Obtendo informações de uma branch remota ----------
+
+Podemos obter informações de uma branch remota de várias maneiras:
+
+Obtendo todas as branches remotas criadas junto de suas respectivas referências:
+
+    git remote -v
+
+Obter informações detalhadas sobre determinada branch:
+
+    git remote show branch_name
