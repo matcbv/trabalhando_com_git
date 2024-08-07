@@ -1,0 +1,7 @@
+--------- ours ---------
+
+Com a estratégia de merge ours, ao realizarmos nosso merge, o conteúdo da nossa branch secundária será igorado, mantendo o estado da branch principal. O ours gerará um commit de merge em nossa branch principal, indicando que o merge foi executado.
+
+Para executarmos o merge com ours, utilizamos:
+
+git merge -s (--strategy) ours secundaryBranch

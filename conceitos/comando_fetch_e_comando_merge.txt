@@ -1,0 +1,22 @@
+---------- fetch ----------
+
+---------- Utilização ----------
+
+O fetch baixa as referências (branches e tags) do repositório remoto e atualiza suas referências locais para refletir essas mudanças. No entanto, ele não altera sua área de trabalho ou atualiza suas branches locais automaticamente.
+
+git fetch origin
+
+Após isso, podemos verificar todas as mudanças provenientes da referência baixada do repositório remoto.
+
+
+---------- merge ----------
+
+---------- Utilização ----------
+
+O merge as referências baixas do repositório remoto serão mescladas com nosso repositório atual, onde poderemos resolver eventuais conflitos de acordo com nossa necessidade.
+
+Estando na branch a ser feito o merge, utilizamos:
+
+git merge
+
+Dessa forma, as alterações serão mescladas.
