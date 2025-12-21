@@ -9,7 +9,7 @@ O HEAD é simplesmente um ponteiro para o commit atual no qual você está traba
 Indicar o estado atual: O HEAD indica qual commit ou branch está atualmente selecionado.
 
 Ponto de partida: É a base para novos commits e operações como reset, merge e checkout.
-
+ 
 ------------ Modo de uso ------------
 
 Checkout: Quando você muda de branch ou de commit, você está movendo o HEAD para apontar para um novo commit ou branch.
