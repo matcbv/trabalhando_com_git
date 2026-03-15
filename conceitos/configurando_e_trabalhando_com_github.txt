@@ -26,9 +26,16 @@ git pull alias (origin) branch (main)
 
 ---------- clone ----------
 
+Podemos clonar um respositório remoto através de sua URL do GitHub, sua chave SSH, ou via comando do GitHub CLI. Exemplos:
+
+    * git clone https://github.com/user/repo.git
+
+    * git clone git@github.com:user/repo.git
+
+! No caso da chave SSH, é necessário que sua máquina esteja vinculada corretamente ao GitHub. Também será solicitada a sua senha SSH criada.
 
 ---------- clone com submódulos ----------
 
 Ao clonar submódulos, devemos utilizar o parâmetro --recursive para que os submódulos sejam incluidos:
 
-git clone --recursive "url_repository"
+    * git clone --recursive "url_repository"

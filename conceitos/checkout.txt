@@ -3,20 +3,22 @@ Com checkout, conseguimos alternar entre diferentes branches ou commits. Sua pri
 ----------- trabalhando com branches -----------
 
 Para acessarmos determinada branch, utilizamos o comando:
-
-git checkout "branch_name"
+    
+    * git checkout "branch_name"
 
 Podemos também criar uma branch acessando-a logo em seguida:
 
-git checkout -b "branch_name"
+    * git checkout -b "branch_name"
 
 ----------- trabalhando com commmits -----------
 
 Podemos acessar determinado commit com:
 
-git checkout hash SHA
+    * git checkout hash SHA
 
-Ao trabalharmos com commits, sempre que acessarmos um commit, entraremos no estado detached HEAD. Isso significa que o seu HEAD (ponteiro atual) está apontando diretamente para um commit específico, não para um branch. Enquanto estiver nesse estado, você pode visualizar o estado do código, fazer alterações experimentais e até mesmo fazer commits. No entanto, essas alterações não estarão associadas a um branch específico e serão perdidas se você mudar de contexto sem cuidado.
+Ao trabalharmos com commits, sempre ao acessarmos algum, entraremos no estado detached HEAD. Isso significa que o seu HEAD (ponteiro atual) está apontando diretamente para um commit específico, não para um branch. Enquanto estiver nesse estado, você pode visualizar o estado do código, fazer alterações experimentais e até mesmo fazer commits.
+
+! Essas alterações não estarão associadas a um branch específico e serão perdidas se você mudar de contexto sem cuidado.
 
 Se você deseja manter as alterações feitas nesse estado, é recomendável criar uma nova branch para trabalho. Você pode fazer isso usando o comando git switch -c <new-branch-name> ou git checkout -b <new-branch-name>. Isso criará um novo branch com base no commit em que você está atualmente, permitindo que você salve suas alterações em um contexto de branch. Após finalizar seus trabalhos, é possível realizar o merge com nossa branch principal.
 
