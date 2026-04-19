@@ -10,7 +10,7 @@ Para criarmos uma nova branch, utilizaremos o comando:
 
     * git branch "branch_name"
 
-Podemos checar as branches exixtentes em nosso repositório com:
+Podemos checar as branches existentes em nosso repositório com:
 
     * git branch
 
@@ -18,7 +18,7 @@ Obs.: Quaisquer alterações feitas nas branches secundárias não serão reflet
 
 --------- Criando branches com referência ---------
 
-Pode ser necessários em alguns casos, principalmente ao trabalhar com repositórios bara, de especificar a referência rmeota ao criar uma branch. Para isso, utilizamos o comando:
+Pode ser necessários em alguns casos, principalmente ao trabalhar com repositórios bare, de especificar a referência remota ao criar uma branch. Para isso, utilizamos o comando:
 
     * git branch "branch_name" "reference"
 
@@ -55,3 +55,11 @@ Para mesclarmos branches, utilizaremos o seguinte comando estando no repositóri
     * git merge "branch_name"
 
 Obs.: O repositório mesclado continuará existindo, podendo ainda ser utilizado.
+
+--------- Obtendo informações de branches ---------
+
+Com o comando abaixo, são exibidas todas as branches locais e qual branch remota cada uma rastreia:
+
+    * git branch -vv
+
+A opção -vv é o -v com um nível a mais de informação, que adiciona a branch remota que cada branch local está rastreando.

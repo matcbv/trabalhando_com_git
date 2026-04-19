@@ -2,7 +2,7 @@
 
 Para vincularmos nossa chave SSH a um alias, podemos utilizar o comando:
 
-git remote add "alias_name" "ssh_key"
+    * git remote add "alias_name" "ssh_key"
 
 Obs.: Por padrão, o nome do alias é origin.
 
@@ -10,19 +10,19 @@ Obs.: Por padrão, o nome do alias é origin.
 
 Para subirmos as alterações para nosso repositório no GitHub, utilizamos o comando:
 
-git push alias (origin) branch (main)
+    * git push alias (origin) branch (main)
 
 Também podemos definir um outro autor para aquele commit com:
 
-git push alias (origin) branch (main) --author="username <email>"
+    * git push alias (origin) branch (main) --author="username <email>"
 
-Obs.: Por padrão, nosso usuário e email é utilizado.
+Obs.: Por padrão, o usuário e email cadastrados serão utilizados.
 
 ---------- pull ----------
 
 Para puxarmos nosso repositório para um repositório atual, utilizamos o comando:
 
-git pull alias (origin) branch (main)
+    * git pull alias (origin) branch (main)
 
 ---------- clone ----------
 

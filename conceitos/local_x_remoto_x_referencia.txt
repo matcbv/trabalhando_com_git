@@ -1,0 +1,9 @@
+O git trabalha principalmente com três componentes:
+
+* ranch local: É a branch onde trabalhamos diretamente, armazenando seus commits.
+
+* Branch remota: É a branch existente no lado do servidor, exibindo o histórico de commits do projeto.
+
+Obs.: Não confundir branch remota com remoto. O remoto é uma espécie de apelido para o repositório remoto.
+
+* Branch de rastreamento remoto (remote-tracking branch) ou snapshot: É uma referência local que acompanha uma branch remota, representando o último estado conhecido dessa branch.

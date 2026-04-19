@@ -1,0 +1,7 @@
+----------- working tree (diretório de trabalho) x index ( staging area / área de staging) -----------
+
+- Diretório de Trabalho: Pode conter mudanças não rastreadas, mudanças rastreadas mas não adicionadas à staging area, e mudanças rastreadas que já estão na staging area.
+
+- Área de Staging: Contém apenas as mudanças que foram adicionadas com git add e estão prontas para serem commitadas.
+
+Tudo que está na área de staging também está presente no diretório de trabalho, mas nem tudo do diretório de trabalho está na área de staging.

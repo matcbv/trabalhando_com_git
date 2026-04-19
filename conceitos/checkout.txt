@@ -10,7 +10,7 @@ Podemos também criar uma branch acessando-a logo em seguida:
 
     * git checkout -b "branch_name"
 
------------ trabalhando com commmits -----------
+----------- trabalhando com commits -----------
 
 Podemos acessar determinado commit com:
 

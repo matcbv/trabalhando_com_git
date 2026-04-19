@@ -1,4 +1,4 @@
-Cria um novo commit que desfaz as alterações de um commit específico, mantendo o histórico existente intacto e seguro para colaboração.
+Cria um novo commit que desfaz as alterações de um commit específico, mantendo o histórico existente intacto e seguro para colaboração. Ou seja, não altera o histórico de commits da branch, sendo muito útil em situações onde a branch é compartilhada.
 
 Para revertermos determinado commit do nosso repositório, utilizamos o comando:
 

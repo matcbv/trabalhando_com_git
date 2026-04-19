@@ -1,6 +1,6 @@
 O restore opera especificamente na working tree e/ou no index (staging area), mas não mexe no histórico de commits.
 
-O restore nunca toca no histórico de commits e nunca move o HEAD. Ele é puramente sobre o estado dos arquivos nas camadas locais
+O restore nunca toca no histórico de commits e nunca move o HEAD. Ele é puramente sobre o estado dos arquivos nas camadas locais.
 
 ----------- --worktree (padrão) -----------
 
@@ -18,6 +18,6 @@ git restore --staged file.txt
 
 ----------- --source -----------
 
-* Restaura a partir de um commit específico:
-  
+* Restaura arquivos para um commit específico, aplicando as alterações em sua working tree, sem alterar a staging area:
+
 git restore --source HEAD~2 file.txt

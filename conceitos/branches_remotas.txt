@@ -1,8 +1,18 @@
----------- Criando uma branch remota ----------
+---------- Cadastrando o remoto ----------
 
-Para criarmos uma branch remota, devemos utilizar o comando:
+Para criarmos um remoto, devemos utilizar o comando:
 
     * git remote add branch_name (origin por padrão) URL/PATH
+
+---------- Vinculando branch remota ----------
+
+Para vincularmos nossa branch remota com a local, utilizamos o comando:
+
+    * git push --set-upstream origin main
+    ou
+    * git push -u origin main
+
+Esse comando irá envia seus commits para a branch remota e configurar o tracking entre sua branch local e a remota.
 
 ---------- Obtendo / Modificando a referência da branch remota ----------
 

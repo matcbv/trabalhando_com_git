@@ -4,6 +4,6 @@ Com a estratégia de merge ours, ao realizarmos nosso merge, o conteúdo da noss
 
 Para executarmos o merge com ours, utilizamos:
 
-git merge -s (--strategy) ours secundaryBranch
+    * git merge -s (--strategy) ours secundaryBranch
 
 --------- theirs ---------

@@ -1,4 +1,4 @@
-Par editarmos nosso último commmit, devemos utilizar o comando:
+Par editarmos nosso último commit, devemos utilizar o comando:
 
     * git commit --amend
 
